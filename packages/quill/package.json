@@ -1,9 +1,15 @@
 {
-  "name": "quill",
-  "version": "2.0.3",
-  "description": "Your powerful, rich text editor",
+  "name": "@bekiryoruk/quill",
+  "version": "2.0.4",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Quill rich text editor with XSS hardening (fork of slab/quill with PR #4774 applied)",
   "author": "Jason Chen <jhchen7@gmail.com>",
-  "homepage": "https://quilljs.com",
+  "contributors": [
+    "Bekir Yoruk <bekiryoruk1@gmail.com>"
+  ],
+  "homepage": "https://github.com/bekiryoruk/quill#readme",
   "main": "quill.js",
   "type": "module",
   "dependencies": {
@@ -62,11 +68,11 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slab/quill.git",
+    "url": "git+https://github.com/bekiryoruk/quill.git",
     "directory": "packages/quill"
   },
   "bugs": {
-    "url": "https://github.com/slab/quill/issues"
+    "url": "https://github.com/bekiryoruk/quill/issues"
   },
   "prettier": {
     "singleQuote": true
